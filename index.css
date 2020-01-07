@@ -1,26 +1,30 @@
 .selector-for-some-widget {
     box-sizing: content-box;
-  }
+}
 
 .wrapper {
     display: flex;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
 
 .nav {
     width: 20%;
-    border:  1px;
-
+    border: black;    
 }
 
 .carousel {
-    width: 80%;
+    width: 80%    
+}
+
+h3 {
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 .shop {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 50px;
     justify-content: space-evenly;
 }
